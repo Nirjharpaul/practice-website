@@ -41,11 +41,47 @@ font-size: 40px;
 }
 
 section{
-    border: 2px solid green;
     height: 700px;
 }
 .dream-area{
     background: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+    
+}
+
+p{
+    color: rgb(105, 105, 105);
+}
+
+#full-box{
+    border-left: 7px solid;    
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    background-color: white;
+}
+#baby-box{
+    border-left: 7px solid;    
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.heading-ex{
+    margin-left: 5%;
+}
+
+.experiences-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer{
+    text-align: center;
 }
